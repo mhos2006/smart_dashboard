@@ -48,3 +48,11 @@ This project relies on a strict `#include` hierarchy to prevent namespace collis
 3.  **Flash the Board:** Connect the ESP32 to your laptop and upload the code.
 4.  **Acquire the IP:** Open the Arduino Serial Monitor at 115200 baud to retrieve the local IP address assigned by your router.
 5.  **Deploy:** Unplug the ESP32 from your computer, plug it into a dedicated wall charger, and type the IP address into your phone's browser to access the control panel.
+
+## Operation
+
+
+https://github.com/user-attachments/assets/bf5de3a1-3b67-4397-bc6e-94dc64e1b97e
+
+
+
