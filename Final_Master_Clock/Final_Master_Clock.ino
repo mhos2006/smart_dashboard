@@ -10,10 +10,10 @@
 TFT_eSPI tft = TFT_eSPI(); 
 WebServer server(80);
 
-const char* ssid     = "VM8820505";
-const char* password = "Ly7ybbrhrHwf";
-String apiKey = "2322ce436bbb0116f77457d5e3dcab2c"; 
-String city = "Manchester,UK";
+const char* ssid     = "ENTER WIFI NAME";
+const char* password = "ENTER WIFI PASSWORD";
+String apiKey = "ENTER API KEY"; 
+String city = "CITY, COUNTRY";
 
 const char* tz = "GMT0BST,M3.5.0/1,M10.5.0";
 const char* ntpServer = "pool.ntp.org";
@@ -200,7 +200,7 @@ void loop() {
     tft.setTextSize(2);
     tft.setCursor(10, 165);
     tft.setTextColor(TFT_MAGENTA, TFT_BLACK);
-    tft.print("LOC: Manchester, UK      ");
+    tft.print("LOC: (CITY, COUNTRY)      ");
     
     tft.setCursor(10, 185);
     tft.setTextColor(TFT_CYAN, TFT_BLACK);
