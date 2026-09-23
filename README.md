@@ -1,6 +1,6 @@
 #  ESP32 Smart Dashboard & Meteorological Hub
 
-A completely over-engineered, web-controlled smart dashboard built on an ESP32 and a 2.8-inch ILI9341 SPI TFT display. Originally intended to use physical tactile buttons, which were promptly thrown in the bin because plastic breadboards and 1mm component legs are not compatible. 
+A completely over-engineered, web-controlled smart dashboard built on an ESP32 and a 2.8-inch ILI9341 SPI TFT display. Originally intended to use physical tactile buttons, but this was not possible because plastic breadboards and 1mm component legs are not compatible. 
 
 This project serves as a live weather station for Manchester, UK, and doubles as a Wi-Fi-controlled stopwatch and timer. 
 
